@@ -1,0 +1,19 @@
+#Calvin Progress
+
+import xlrd
+book = xlrd.open_workbook("your_input_file.xls")
+sheet = book.sheet_by_index(0)
+for row_index in xrange(1, sheet.nrows): 
+    name, industry, info = sheet.row_values(row_index, end_colx=3)
+    print "Row %d: name=%r industry=%r info=%r" %(row_index + 1, name, industry, info)
+    print nltk.word_tokenize(info)
+
+
+#wrote script using xlrd to read a excel file.
+
+import os
+
+os.listdir('.')
+
+#lists directory the computer is looking in 
+#Useful links: https://secure.simplistix.co.uk/svn/xlrd/trunk/xlrd/doc/xlrd.html?p=4966, http://www.youlikeprogramming.com/2012/03/examples-reading-excel-xls-documents-using-pythons-xlrd/, http://www.nltk.org/book/ch05.html
