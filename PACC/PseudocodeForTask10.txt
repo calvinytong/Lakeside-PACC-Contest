@@ -1,0 +1,68 @@
+Facts:
+
+Time | # | Geolocation
+
+Time = temp
+
+if Time == temp 
+{
+	run # checker
+	read the geolocation
+	
+	
+}
+
+#Checker
+{
+	MapSet
+	{
+		if .add == false
+		{
+			get(key) ++;
+		}
+		else
+			
+	}
+}
+
+String1 String1 String2
+String1: 2 
+String2: 1
+
+
+String CURRENT = "13/10/12 00" 11 characters
+String BASE_DAYS = CURRENT.substring(0,6); //  13/10/
+String BASE_HOURS = CURRENT.substring(0,9); // 13/10/12 
+
+String Base = "13/10/";
+
+int Hours = Integer.parseInt(CURRENT.substring(9, CURRENT.length)); // == 00
+int Days = Integer.parseInt(CURRENT.substring(6,8));
+
+for(int days = 0; days < 4; days++)
+{
+	//BASE_DAYS += Days;
+	
+	for(int hours = 0; hours < 23; hours++)
+	{
+		Hours++;
+		BASE_HOURS += Hours;
+		// run #Checker and GeolocationChecker
+	}
+	Days++;
+}
+
+
+While (all)
+{
+	read the HOUR++ -> Count the # and call #Checker
+	
+}
+
+
+Hour1: 
+	{
+		#Checker
+		Geolocation Checker
+		
+	}
