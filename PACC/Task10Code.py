@@ -21,7 +21,7 @@ with open('output.csv', 'ru') as file:
 		print counter
 		tweetid = row[0]
 		mymap.addpoint(float(row[8]), float(row[9]), row[0])
-		mymap.draw("./mymap.html") 
+		mymap.draw("./mymap" + counter + ".html") 
 
 
 
