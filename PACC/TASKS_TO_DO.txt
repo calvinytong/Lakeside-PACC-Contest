@@ -1,0 +1,20 @@
+1. Choose major cities and then find all tweets within 100 miles radius
+  Pittsburgh
+  Atlanta
+  Chicago
+  New York City
+  Cleveland
+  Detroit
+2. Shove all those points into "Open Weather Map API" (Using JSON)
+3. Graph that data by Weather Condition (Precipitation or Temperature or Wind Conditions)
+4. Look at Graph and see what we have
+5. Make Conclusions
+6. Make Poster
+
+Calvin
+
+
+Joseph
+
+
+Neil
